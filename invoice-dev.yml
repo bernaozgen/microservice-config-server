@@ -11,7 +11,7 @@ server:
   port: 0
 spring:
   application:
-    name: invoice
+    name: berna
   datasource:
     password: 123456
     url: jdbc:postgresql://localhost:5432/rentacarinvoicedb
