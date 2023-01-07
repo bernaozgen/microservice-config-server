@@ -19,15 +19,15 @@ spring:
       port: 27017
   kafka:
       consumer:
-            auto-offset-reset: earliest
-            bootstrap-servers: localhost:9092
-            group-id: filter
-            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-            properties:
-                spring:
-                    json:
-                        trusted:
-                            packages: '*'
-            value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-        topic:
-            name: rental_topics4
+          auto-offset-reset: earliest
+          bootstrap-servers: localhost:9092
+          group-id: filter
+          key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+          properties:
+              spring:
+                  json:
+                      trusted:
+                          packages: '*'
+          value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      topic:
+          name: rental_topics4
