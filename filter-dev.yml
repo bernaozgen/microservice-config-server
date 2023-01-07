@@ -27,6 +27,7 @@ spring:
           json:
             trusted:
               packages: "*"
+     value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer         
     producer:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
