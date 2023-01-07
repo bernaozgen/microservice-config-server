@@ -29,5 +29,5 @@ spring:
                         trusted:
                             packages: '*'
             value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-    topic:
-      name: rental_topics4
+        topic:
+            name: rental_topics4
