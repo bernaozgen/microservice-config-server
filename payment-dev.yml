@@ -14,7 +14,7 @@ spring:
     name: payment
   datasource:
     password: 123456
-    url: jdbc:postgresql://localhost:5432/rentacarpaymentdb
+    url: jdbc:postgresql://rentacarpaymentdb:5438/rentacarpaymentdb
     username: postgres
   jpa:
     hibernate:
